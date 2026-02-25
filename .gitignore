@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Optional: Ensure directories are not ignored so Git can scan their contents for your allowed files
+!*/
+
+# Except files with the .txt extension
+!.gitignore
+!*.py
+!*.sh
+!*.md
